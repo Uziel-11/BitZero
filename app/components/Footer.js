@@ -3,13 +3,14 @@ import logo from "../assets/img/img.png"
 import Email from "../assets/img/Email.png"
 import Mobile from "../assets/img/Mobile.png"
 import Location from "../assets/img/Location.png"
+import '/app/assets/stylesheets/Home.css'
 
 class Footer extends React.Component{
 
     render() {
         return(
 
-            <footer className=" text-center text-lg-start bg-light text-muted  text-white" style={{marginTop:"5%"}}>
+            <footer className="footer text-center text-lg-start bg-light text-muted  text-white" style={{marginTop:"5%"}}>
                 <br/>
                 <section className="">
                     <div className="container text-center text-md-start mt-5">

@@ -3,11 +3,14 @@ import Car from '/app/assets/img/sliderTwo.png'
 import CarTwo from '/app/assets/img/sliderOne.png'
 import '/app/assets/stylesheets/Home.css'
 
-
-
-
-
 class Carrusel extends React.Component{
+
+
+        redirect = () => {
+        window.location.href="/Servicios"
+    }
+
+
     render() {
         return(
             <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -22,7 +25,7 @@ class Carrusel extends React.Component{
                                 Nuestras aplicaciones son robustas y faciles de usar, trabajamos
                                 con principales herramientas tecnologicas de acuerdo a las necesidades de cada proyecto</p>
                             <div className="d-grid gap-0 col-4 mx-auto" >
-                            <button type="button" className="btn btn-lg text-white">Comenzar</button>
+                            <button type="button" onClick={this.redirect} className="btn btn-lg text-white">Comenzar</button>
                             </div>
                         </div>
 
@@ -36,7 +39,7 @@ class Carrusel extends React.Component{
                             Diseño de paginas web,Marketing digital, Ecommerce, cursos y talleres y mas.
                             </p>
                             <div className="d-grid gap-0 col-4 mx-auto" >
-                                <button type="button" className="btn btn-lg text-white">Servicios</button>
+                                <button type="button" onClick={this.redirect} className="btn btn-lg text-white">Servicios</button>
                             </div>
                         </div>
                     </div>

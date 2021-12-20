@@ -2,19 +2,22 @@ import React from "react";
 import image from "../assets/img/nosotros.png"
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import style from "../assets/stylesheets/Servicios.css"
+
+
 class Nosotros extends React.Component {
 
     render() {
         return(
             <div>
                 <Header/>
-                <h5 className="text-md-center"> NOSOTROS </h5>
+                <h5 className="text-md-center" id="h5"> NOSOTROS </h5>
                 <div className="row g-0 position-relative">
                     <div className="col-md-6 mb-md-0 p-md-4">
                         <img src={image} className="w-100" alt="..."/>
                     </div>
                     <div className="col-md-6 p-4 ps-md-0">
-                        <h5 className="mt-0 text-md-center">BIENVENIDO A  BITZERO TECHNOLOGIES</h5>
+                        <h5 className="mt-0 text-md-center">BIENVENIDO A  <span>BIT</span>ZERO TECHNOLOGIES</h5>
                         <br/>
                         <p>Bitzero es una empresa cuyo objetivo es incrementar la productividad y
                             competitividad de las micro y pequeñas empresas a través del desarrollo de herramientas de TI.

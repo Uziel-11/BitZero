@@ -4,6 +4,11 @@ import Navbar from "../components/Header";
 import Slider from "react-slick";
 import '/app/assets/stylesheets/CasosExito.css'
 
+import Restaurant from "../assets/img/Restaurant.png"
+import puntoVenta from "../assets/img/puntoVenta.png"
+import ruta from "../assets/img/ruta.png"
+import eventos from "../assets/img/eventos-1024x1004.png"
+
 export default class CasosExito extends React.Component {
     render() {
         var settings = {
@@ -29,37 +34,30 @@ export default class CasosExito extends React.Component {
                 <Slider {...settings}>
                     <div>
                         <div className="card">
-                        <h3 > Caso 1</h3>
-                        <p className="text-center" style={{marginTop:"-20%",position:"relative"}}>Lorem ipsum dolor sit amet, onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img className="card-img" src={Restaurant} alt=""/>
+                            <p className="textCard text-center text-white" style={{marginTop:"-9%",position:"relative",background:"black"}}>Software consultor de Centros de Consumo de Alimentos y Bebidas de Tuxtla</p>
                         </div>
                     </div>
-                    <div >
+                    <div>
                         <div className="card">
-                        <h3> Caso 2</h3>
-                        <p className="text-center" style={{marginTop:"-20%",position:"relative"}}>Lorem ipsum dolor sit amet, onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img className="card-img" src={puntoVenta} alt=""/>
+                            <p className="textCard text-center text-white" style={{marginTop:"8%",position:"relative",background:"black"}}>Punto de venta para la administracion de comercios, como abarrotes,farmacias,etc.</p>
                         </div>
                     </div>
 
                     <div>
                         <div className="card">
-                            <h3> Caso 3</h3>
-                            <p className="text-center" style={{marginTop:"-20%",position:"relative"}}>Lorem ipsum dolor sit amet, onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img className="card-img" src={ruta} alt=""/>
+                            <p className="textCard text-center text-white" style={{marginTop:"9%",position:"relative",background:"black"}}>Punto de venta para la administracion de comercios, como abarrotes,farmacias,etc.</p>
                         </div>
                     </div>
 
                     <div>
                         <div className="card">
-                            <h3> Caso 4</h3>
-                            <p className="text-center" style={{marginTop:"-20%",position:"relative"}}>Lorem ipsum dolor sit amet, onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <img className="card-img" src={eventos} alt="" width="-190px" height="300px"/>
+                            <p className="textCard text-center text-white"  style={{marginTop:"8%",position:"relative",background:"black"}}>Software consultor para la organizacion de eventos en la Península de Yucatán: Bodas, Eventos Corporativos y Eventos Sociales.</p>
                         </div>
                     </div>
-                    <div>
-                        <div className="card">
-                            <h3> Caso 5</h3>
-                            <p className="text-center" style={{marginTop:"-20%",position:"relative"}}>Lorem ipsum dolor sit amet, onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
                 </Slider>
             </div>
                 <Footer/>
@@ -93,9 +91,24 @@ h3 {
     border-radius: 2em;
     background: #A50000;
 }
+.textCard{
+border-radius: 20px
+}
 
 
-.slick-next:before, .slick-prev:before {
-    color: #000;
+
+.slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+    
+}
+.slick-dots li.slick-active button {
+    border: 2px solid black;
+    border-radius: 100%;    
+}
+.slick-dots li.slick-active button:before {
+    color: transparent;
+}
 }
 `

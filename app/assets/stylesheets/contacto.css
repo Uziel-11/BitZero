@@ -1,0 +1,17 @@
+
+.card{
+    border-radius: 20px;
+
+}
+.formulario{
+    padding:20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,.7);
+    box-shadow: 0 0 100px rgba(0,0,0,.300);
+
+}
+
+.solicitar{
+    background: white;
+}
+

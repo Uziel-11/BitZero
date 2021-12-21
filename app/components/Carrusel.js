@@ -4,8 +4,7 @@ import CarTwo from '/app/assets/img/sliderOne.png'
 import '/app/assets/stylesheets/Home.css'
 
 class Carrusel extends React.Component{
-
-
+    
         redirect = () => {
         window.location.href="/Servicios"
     }

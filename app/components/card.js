@@ -4,7 +4,6 @@ import CarTwo from "../assets/img/cardTwo.png"
 import CarTres from "../assets/img/cardThree.png"
 
 
-
 class card extends React.Component{
     render() {
         return(

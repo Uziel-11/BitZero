@@ -7,7 +7,7 @@ import '/app/assets/stylesheets/CasosExito.css'
 import Restaurant from "../assets/img/Restaurant.png"
 import puntoVenta from "../assets/img/puntoVenta.png"
 import ruta from "../assets/img/ruta.png"
-import eventos from "../assets/img/eventos-1024x1004.png"
+import eventos from "../assets/img/evento.png"
 
 export default class CasosExito extends React.Component {
     render() {
@@ -22,44 +22,44 @@ export default class CasosExito extends React.Component {
         };
         return (
             <>
-            <Navbar/>
+                <Navbar/>
                 <div className="CasosExito">
                     <h7 className=""><span className="BIT">Nuestros</span> casos de exito</h7>
                 </div>
-            <div className="container-card">
-                <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-                <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-                <style>{cssstyle}</style>
+                <div className="container-card">
+                    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+                    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+                    <style>{cssstyle}</style>
 
-                <Slider {...settings}>
-                    <div>
-                        <div className="card">
-                            <img className="card-img" src={Restaurant} alt=""/>
-                            <p className="textCard text-center text-white" style={{marginTop:"-9%",position:"relative",background:"black"}}>Software consultor de Centros de Consumo de Alimentos y Bebidas de Tuxtla</p>
+                    <Slider {...settings}>
+                        <div>
+                            <div className="card">
+                                <img className="card-img" src={Restaurant} alt="" style={{width:"80%",marginLeft:"8%",marginTop:"4%"}}/>
+                                <p className="textCard text-center text-dark" style={{marginTop:"2%",position:"relative"}}>Software consultor de Centros de Consumo de Alimentos y Bebidas de Tuxtla</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className="card">
-                            <img className="card-img" src={puntoVenta} alt=""/>
-                            <p className="textCard text-center text-white" style={{marginTop:"8%",position:"relative",background:"black"}}>Punto de venta para la administracion de comercios, como abarrotes,farmacias,etc.</p>
+                        <div>
+                            <div className="card">
+                                <img className="card-img" src={puntoVenta} alt="" style={{width:"70%",marginLeft:"7%",marginTop:"10%"}}/>
+                                <p className="textCard text-center text-dark" style={{marginTop:"15%",position:"relative",background:"white"}}>Punto de venta para la administracion de comercios, como abarrotes,farmacias,etc.</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div>
-                        <div className="card">
-                            <img className="card-img" src={ruta} alt=""/>
-                            <p className="textCard text-center text-white" style={{marginTop:"9%",position:"relative",background:"black"}}>Punto de venta para la administracion de comercios, como abarrotes,farmacias,etc.</p>
+                        <div>
+                            <div className="card">
+                                <img className="card-img" src={ruta} alt="" style={{width:"90%",marginLeft:"0",marginTop:"2%"}}/>
+                                <p className="textCard text-center text-dark" style={{marginTop:"15%",position:"relative",background:"white"}}>Servicios de taxis creada para generar un transporte seguro,de calidad y con menor costo a traves de una app movil</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div>
-                        <div className="card">
-                            <img className="card-img" src={eventos} alt="" width="-190px" height="300px"/>
-                            <p className="textCard text-center text-white"  style={{marginTop:"8%",position:"relative",background:"black"}}>Software consultor para la organizacion de eventos en la Península de Yucatán: Bodas, Eventos Corporativos y Eventos Sociales.</p>
+                        <div>
+                            <div className="card">
+                                <img className="card-img" src={eventos} alt=""  style={{width:"60%",marginLeft:"18%",marginTop:"2%"}}/>
+                                <p className="textCard text-center text-dark"  style={{marginTop:"5%",position:"relative",background:"white"}}>Software consultor para la organizacion de eventos en la Península de Yucatán: Bodas, Eventos Corporativos y Eventos Sociales.</p>
+                            </div>
                         </div>
-                    </div>
-                </Slider>
-            </div>
+                    </Slider>
+                </div>
                 <Footer/>
             </>
         );
@@ -73,7 +73,7 @@ const cssstyle = `
   position: relative;
   top: 10px;  
   width: 90%;
-  background: #C6C6C6; 
+  background: #A50000; 
   border-radius: 20px
   
 }
@@ -89,26 +89,30 @@ h3 {
 .card{
     margin: 10px;
     border-radius: 2em;
-    background: #A50000;
+    background: white;
 }
 .textCard{
 border-radius: 20px
 }
 
 
-
+.slick-next:before, .slick-prev:before {
+   color: white;        
+   font-size: 50px;
+   margin: -40px;
+}
 .slick-dots li.slick-active button:before, .slick-dots li button:before {
     color: white;
     opacity: 1;
     font-size: 16px;
-    
 }
 .slick-dots li.slick-active button {
     border: 2px solid black;
-    border-radius: 100%;    
+    border-radius: 100%;
 }
 .slick-dots li.slick-active button:before {
     color: transparent;
 }
-}
+
+
 `

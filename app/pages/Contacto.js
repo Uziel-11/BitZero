@@ -16,58 +16,59 @@ class Contacto extends React.Component{
             <>
                 <Navbar/>
                 <div className="CasosExito">
-                <div className=""><span className="BIT">Contactanos</span></div>
-            </div>
-        <div className="row row-cols-1 row-cols-md-4 g-4" style={{heigth:"100%",margin:"10%", marginTop:"5%"}}>
-            <div className="col">
-                <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
-                    <img src={Facebook} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/>
-                    <div className="card-body">
-                        <h5 className="card-title text-center text-white">Facebook</h5>
-                        <div style={{marginTop:"60%"}}>
-                            <p className="card-text text-center text-white">BITZERO</p>
-                        </div>
+                    <div className=""><span className="BIT">Contactanos</span></div>
+                </div>
+                <div className="row row-cols-1 row-cols-md-4 g-4" style={{heigth:"100%",margin:"10%", marginTop:"5%"}}>
+                    <div className="col">
+                        <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
+                            <a href="https://www.facebook.com/BitzeroTech/" style={{ textDecoration: 'none'}}><img src={Facebook} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/></a>
+                            <div className="card-body">
+                                <a href="https://www.facebook.com/BitzeroTech/" style={{ textDecoration: 'none'}}><h5 className="card-title text-center text-white">Facebook</h5></a>
+                                <div style={{marginTop:"60%"}}>
+                                    <a href="https://www.facebook.com/BitzeroTech/" style={{ textDecoration: 'none'}}><p className="card-text text-center text-white">BITZERO</p></a>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div className="col">
-                <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
-                    <img src={Twitter} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/>
-                    <div className="card-body">
-                        <h5 className="card-title text-center text-white">Twitter</h5>
-                        <div style={{marginTop:"60%"}}>
-                            <p className="card-text text-center text-white">Bitzero Technologies</p>
+                    <div className="col">
+                        <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
+                            <a href="https://twitter.com/bitzerotech?lang=es" style={{ textDecoration: 'none'}}><img src={Twitter} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/></a>
+                            <div className="card-body">
+                                <a href="https://twitter.com/bitzerotech?lang=es" style={{ textDecoration: 'none'}}><h5 className="card-title text-center text-white">Twitter</h5></a>
+                                <div style={{marginTop:"60%"}}>
+                                    <a href="https://twitter.com/bitzerotech?lang=es" style={{ textDecoration: 'none'}}>
+                                        <p className="card-text text-center text-white">Bitzero Technologies</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
+                            <img src={Phone} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/>
+                            <div className="card-body">
+                                <h5 className="card-title text-center text-white">Numero de contacto</h5>
+                                <div style={{marginTop:"60%"}}>
+                                    <p className="card-text text-center text-white">(961) 226 1559</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
+                            <img src={Mail} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"10%"}}/>
+                            <div className="card-body">
+                                <h5 className="card-title text-center text-white">Correo electronico</h5>
+                                <div style={{marginTop:"60%"}}>
+                                    <p className="card-text text-center text-white">contacto@bitzero.mx</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="col">
-                <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
-                    <img src={Phone} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/>
-                    <div className="card-body">
-                        <h5 className="card-title text-center text-white">Numero de contacto</h5>
-                        <div style={{marginTop:"60%"}}>
-                            <p className="card-text text-center text-white">(961) 226 1559</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="col">
-                <div className="card" style={{background:"#A50000",width:"90%",height:"120%"}}>
-                    <img src={Mail} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"10%"}}/>
-                    <div className="card-body">
-                        <h5 className="card-title text-center text-white">Correo electronico</h5>
-                        <div style={{marginTop:"60%"}}>
-                            <p className="card-text text-center text-white">contacto@bitzero.mx</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
                 <Form/>
                 <Mapa/>
-       <Footer/>
+                <Footer/>
             </>
         )
     }

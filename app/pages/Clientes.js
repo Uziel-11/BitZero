@@ -22,7 +22,7 @@ export default class CasosExito extends React.Component {
             pauseOnHover: true,
             arrows: false
 
-          
+
         };
         return (
             <>
@@ -45,7 +45,7 @@ export default class CasosExito extends React.Component {
                         </div>
                         <div >
                             <div className="card">
-                                <img className="" src={TresientosLugares} alt="" style={{width:"2%"}}/>
+                                <img className="card-img" src={TresientosLugares} alt=""/>
                                 <p className="text_card text-center text-white" style={{marginTop:"-9%",position:"relative",background:"#A50000"}}>300 Lugares</p>
                             </div>
                         </div>

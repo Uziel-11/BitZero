@@ -79,3 +79,15 @@ button{
     border-bottom:2px solid darkred;
     color:black;
 }
+
+
+.card-servicio{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-servicio:hover {
+    box-shadow: 5px 6px 6px 5px gray;
+    transform: scale(1.1);
+
+}

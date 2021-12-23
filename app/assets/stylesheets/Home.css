@@ -21,7 +21,6 @@
     height:70px;
     border-radius: 10px;
     background: #A50000;
-
     box-shadow: 0 0 100px rgba(0,0,0,.300);
 }
 
@@ -51,3 +50,13 @@
 
 
 
+.img-carousel{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.img-carousel:hover {
+    box-shadow: 5px 6px 6px 5px gray;
+    transform: scale(1.1);
+
+}

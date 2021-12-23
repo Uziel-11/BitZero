@@ -4,7 +4,6 @@ import '/app/assets/stylesheets/Home.css'
 import Card from "../components/card";
 import Footer from "../components/Footer";
 import Navbar from "../components/Header";
-import "../assets/stylesheets/cardHome.css"
 
 
 class Home extends React.Component{

@@ -22,7 +22,7 @@ export default  class Servicios extends React.Component {
         return(
             <>
                 <Header/>
-                <div className="title_servicios">
+                <div className="title_servicios text-center">
                     <div className="">En nuestros <span className="BIT">servicios</span> elegimos con medida cada parte de tu sistema</div>
                 </div>
                 <div className="tabs">
@@ -97,7 +97,7 @@ export default  class Servicios extends React.Component {
                 </div>
                 <div className="card-group">
                     <div className="col">
-                        <div className="card h-100 text-white" id="card">
+                        <div className="card-servicio h-100 text-white" id="card">
                             <img src={web} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Diseeño para pagina web</h5>
@@ -108,7 +108,7 @@ export default  class Servicios extends React.Component {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card h-100 text-white" id="card">
+                        <div className="card-servicio h-100 text-white" id="card">
                             <img src={ecomm} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">E- COMMERCE</h5>
@@ -121,7 +121,7 @@ export default  class Servicios extends React.Component {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card h-100 text-white" id="card">
+                        <div className="card-servicio h-100 text-white" id="card">
                             <img src={marketing} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">MARKETING DIGITAL</h5>
@@ -138,7 +138,7 @@ export default  class Servicios extends React.Component {
                 <br/>
                 <div className="card-group">
                     <div className="col">
-                        <div className="card h-100 text-white" id="card">
+                        <div className="card-servicio h-100 text-white" id="card">
                             <img src={medida} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Desarrollo a la medida</h5>
@@ -149,7 +149,7 @@ export default  class Servicios extends React.Component {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card h-100 text-white" id="card">
+                        <div className="card-servicio h-100 text-white" id="card">
                             <img src={curso} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Cursos y talleres</h5>
@@ -162,7 +162,7 @@ export default  class Servicios extends React.Component {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card h-100 text-white" id="card">
+                        <div className="card-servicio h-100 text-white" id="card">
                             <img src={app} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Desarrollo de APP</h5>

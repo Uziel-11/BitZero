@@ -15,3 +15,13 @@
     background: white;
 }
 
+.card-contacto{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.card-contacto:hover {
+    box-shadow: 5px 6px 6px 5px gray;
+    transform: scale(1.1);
+
+}

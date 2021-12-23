@@ -39,7 +39,7 @@ class Carrusel extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <img src={Car} width="100%"/>
+                                    <img className="img-carousel" src={Car} width="100%"/>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ class Carrusel extends React.Component{
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <img src={CarTwo} alt="..." width="111%"/>
+                                    <img className="img-carousel" src={CarTwo} alt="..." width="111%"/>
                                 </div>
                             </div>
                         </div>

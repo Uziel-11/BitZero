@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/img/img.png"
 import {NavLink} from "react-router-dom";
-
+import "../assets/stylesheets/header.css"
 
 class Header extends React.Component {
     render() {
@@ -22,7 +22,7 @@ class Header extends React.Component {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav" style={{marginRight:"7%"}}>
                         <ul className="navbar-nav" >
                             <li className="nav-item">
-                                <NavLink activeStyle={{fontWeight:"bold",color:"#A50000"}} style={{marginLeft:"15px",color:"black", textDecoration: 'none'}} to="/Home">INICIO</NavLink>
+                                <NavLink  activeStyle={{fontWeight:"bold",color:"#A50000"}} style={{marginLeft:"15px",color:"black", textDecoration: 'none'}} to="/Home">INICIO</NavLink>
                             </li>
                             <li className="nav-item">
 

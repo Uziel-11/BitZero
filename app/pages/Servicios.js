@@ -29,7 +29,7 @@ export default  class Servicios extends React.Component {
                     <h1 style={{color:"white"}}>React Tabs</h1>
                     <Tabs>
                         <Tab label="INTERFAZ DE USUARIO (FRONTEND)">
-                            <div >
+                            <div className="container">
                                 <img src={front} className="img-tabs img-fluid rounded"  alt="Desarrollo de software"/>
                                 <h4>INTERFAZ DE USUARIO (FRONTEND)</h4>
                                 <div className="parrafo-tabs">
@@ -41,7 +41,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </Tab>
                         <Tab label="TECNOLOGIA A LADO DEL SERVIDOR">
-                            <div>
+                            <div className="container">
                                 <img src={back} className="img-tabs img-fluid rounded"  alt="Desarrollo de software"/>
                                 <h4>TECNOLOGIA DEL LADO DEL SERVIDOR</h4>
                                 <div className="parrafo-tabs">
@@ -53,7 +53,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </Tab>
                         <Tab label="TECNOLOGIA MOVIL">
-                            <div>
+                            <div className="container">
                                 <img src={movil} className="img-tabs img-fluid rounded"  alt="Desarrollo de software"/>
                                 <h4>TECNOLOGIA MOVIL</h4>
                                 <div className="parrafo-tabs">
@@ -65,7 +65,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </Tab>
                         <Tab label="BASE DE DATOS">
-                            <div>
+                                <div className="container">
                                 <img src={bd} className="img-tabs img-fluid rounded"  alt="Desarrollo de software"/>
                                 <h4>BASE DE DATOS</h4>
                                 <div className="parrafo-tabs">
@@ -77,7 +77,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </Tab>
                         <Tab label="CERTIFICACIONES">
-                            <div>
+                            <div className=>
                                 <img src={certificacion} className="img-tabs img-fluid rounded"  alt="Desarrollo de software"/>
                                 <h4>CERTIFICACION</h4>
                                 <div className="parrafo-tabs">
@@ -97,35 +97,41 @@ export default  class Servicios extends React.Component {
                 </div>
                 <div className="card-group">
                     <div className="col">
+                        <div className="container">
                         <div className="card-servicio h-100 text-white" id="card">
-                            <img src={web} className="card-img-top" alt="..."/>
+                            <img src={web} className="card-img-top w-75" alt="..."/>
                             <div className="card-body">
-                                <h5 className="card-title">Diseeño para pagina web</h5>
-                                <p className="card-text">
-                                    Haz que tu idea, marca o producto llegue a más clientes potenciales.
+                                <h5 className="card-title">Diseño para pagina web</h5>
+                                <p className="card-text" style={{marginTop:"15%"}}>
+                                    Haz que tu idea, marca o producto llegue a más clientes potenciales
+                                    <br/><br/><br/>
                                 </p>
                             </div>
                         </div>
+                        </div>
+
                     </div>
                     <div className="col">
+                        <div className="container">
                         <div className="card-servicio h-100 text-white" id="card">
-                            <img src={ecomm} className="card-img-top" alt="..."/>
+                            <img src={ecomm} className="card-img-top w-75" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">E- COMMERCE</h5>
-                                <p className="card-text">
+                                <p className="card-text" style={{marginTop:"15%"}}>
                                     Lleva tus productos a mas clientes.
                                     Diseñamos tiendas online con
-                                    Woocomerce o Prestashop
+                                    Woocomerce o Prestashopbr<br/><br/><br/>
                                 </p>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card-servicio h-100 text-white" id="card">
-                            <img src={marketing} className="card-img-top" alt="..."/>
+                            <img src={marketing} className="card-img-top w-75"  alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">MARKETING DIGITAL</h5>
-                                <p className="card-text">
+                                <p className="card-text" style={{marginTop:"15%"}}>
                                     Realizamos campañas en Google,
                                     Youtube, Facebook e instagram para
                                     que tus productos lleguen a mas
@@ -142,8 +148,9 @@ export default  class Servicios extends React.Component {
                             <img src={medida} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Desarrollo a la medida</h5>
-                                <p className="card-text">
+                                <p className="card-text" style={{marginTop:"15%"}}>
                                     Desarrollo de Software a la medida.
+                                    <br/><br/><br/>
                                 </p>
                             </div>
                         </div>
@@ -153,10 +160,11 @@ export default  class Servicios extends React.Component {
                             <img src={curso} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Cursos y talleres</h5>
-                                <p className="card-text">
+                                <p className="card-text" style={{marginTop:"15%"}}>
                                     Asesorias, cursos y talleres de
                                     Marketing Digital para tu equipo de
                                     trabajo
+                                    <br/><br/><br/>
                                 </p>
                             </div>
                         </div>
@@ -166,9 +174,10 @@ export default  class Servicios extends React.Component {
                             <img src={app} className="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">Desarrollo de APP</h5>
-                                <p className="card-text">
+                                <p className="card-text" style={{marginTop:"15%"}}>
                                     Desarrollomas Aplicaciones moviles
                                     a la medida
+                                    <br/><br/><br/>
                                 </p>
                             </div>
                         </div>

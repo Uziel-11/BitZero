@@ -20,7 +20,7 @@ export default class CasosExito extends React.Component {
             autoplay: true,
             autoplaySpeed: 2000,
             pauseOnHover: true,
-            arrows: false,
+            arrows: true,
             responsive: [
                 {
                     breakpoint: 1200,
@@ -114,6 +114,12 @@ h3 {
     position: relative;
     text-align: center;
     border: 5px solid black;
+}
+
+.slick-next:before, .slick-prev:before {
+   color: black;      
+   font-size: 50px;
+   margin: -40px;
 }
 
 .card{

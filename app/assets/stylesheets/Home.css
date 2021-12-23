@@ -1,24 +1,8 @@
 
-.carousel-caption {
-    position: absolute;
-    left: 0;
-    width: 34%;
-    top: 20%;
-    margin-left: -12%;
-}
-.carousel-caption h4{
-    line-height: 4.5;
-    font-size: 6mm;
-    text-align: left;
-}
-.carousel-caption h5{
-    text-align: left;
-    line-height: 2.5;
-}
-.carousel-caption p{
-    text-align: justify;
-    line-height: 1.5;
-}
+
+
+
+/*colores del texto*/
 .BIT{
     color: #A50000;
 }
@@ -29,31 +13,41 @@
 .text-span{
     font-weight: bold;
 }
+
+/*botones*/
 .d-grid {
     margin-top: 15%;
-    height: 13%;
+    width:80px;
+    height:70px;
     border-radius: 10px;
     background: #A50000;
+
+    box-shadow: 0 0 100px rgba(0,0,0,.300);
 }
+
+.d-grid:hover {
+    background-color: #c60000;
+}
+
+/*Despues del carrusel*/
 .reseña{
-    /*background: yellow;*/
-    height: 150px;
-    margin-top: 0%;
-    /*IMPORTANTE*/
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 18px;
 }
 .tituloreseña{
     /*background: yellow;*/
     height: 150px;
-    margin-top: 4%;
+    margin-top: 5%;
     /*IMPORTANTE*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .row{
-    border-radius: 20px;
+    border-radius: 18px;
 }
+
+
+

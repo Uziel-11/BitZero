@@ -12,19 +12,19 @@ class FormularioContac extends React.Component{
                     </div>
                     <div className="col-md-6 text-white">
                         <label htmlFor="inputEmail4" className="form-label" style={{marginTop:"40px"}}>Nombre</label>
-                        <input type="name" placeholder="Luis Miguel" className="form-control" id="inputName"/>
+                        <input type="name" className="form-control" id="inputName"/>
                     </div>
                     <div className="col-md-6 text-white">
                         <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Apellido</label>
-                        <input type="lastName" placeholder="Gonzalez Martinez" className="form-control" id="inputLastname"/>
+                        <input type="lastName" className="form-control" id="inputLastname"/>
                     </div>
                     <div className="col-md-6 text-white">
                         <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Telefono</label>
-                        <input type="phone" placeholder="9787354365" className="form-control" id="inputPhone"/>
+                        <input type="phone" className="form-control" id="inputPhone"/>
                     </div>
                     <div className="col-md-6 text-white">
                         <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Correo</label>
-                        <input type="email" placeholder="luisgm9787@gmail.com" className="form-control" id="inputEmail"/>
+                        <input type="email" className="form-control" id="inputEmail"/>
                     </div>
                     <div className="mb-3 text-white">
                         <label htmlFor="exampleFormControlTextarea1" className="form-label" style={{marginTop:"40px"}}>Motivo o consulta</label>

@@ -11,7 +11,7 @@ class Footer extends React.Component{
     render() {
         return(
 
-            <footer className="footer text-center text-lg-start bg-light text-muted  text-white" style={{marginTop:"5%"}}>
+            <footer className="footer text-center text-lg-start text-muted  text-white" style={{marginTop:"5%", background:"#EAEAEA"}}>
                 <br/>
                 <section className="">
                     <div className="container text-center text-md-start mt-5">

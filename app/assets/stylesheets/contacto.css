@@ -19,6 +19,7 @@
     margin: auto auto;
     transition: all 0.2s ease;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .card-contacto:hover {

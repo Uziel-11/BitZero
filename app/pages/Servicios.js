@@ -77,7 +77,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </Tab>
                         <Tab label="CERTIFICACIONES">
-                            <div className=>
+                            <div className="container">
                                 <img src={certificacion} className="img-tabs img-fluid rounded"  alt="Desarrollo de software"/>
                                 <h4>CERTIFICACION</h4>
                                 <div className="parrafo-tabs">

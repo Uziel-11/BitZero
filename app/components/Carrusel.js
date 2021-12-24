@@ -22,7 +22,7 @@ class Carrusel extends React.Component{
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="3000">
                         <div className="card bg-white m-width-100">
-                            <div className="row">
+                            <div className="row g-0">
                                 <div className="col-md-6">
                                     <div className="container" style={{marginTop:"10%"}}>
                                     <div className="card-body text-left " style={{marginLeft:"5%"}}>
@@ -32,7 +32,7 @@ class Carrusel extends React.Component{
                                             de software a la medida siguiendo estandares de calidad.
                                             Nuestras aplicaciones son robustas y faciles de usar, trabajamos
                                             con principales herramientas tecnologicas de acuerdo a las necesidades de cada proyecto</p>
-                                        <div className="d-grid gap-0 col-4 mx-auto" >
+                                        <div className="d-grid gap-0 col-5 mx-auto" >
                                             <button type="button" onClick={this.redirect} className="btn btn-lg  text-white">Comenzar</button>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@ class Carrusel extends React.Component{
                                             <p className="text-black "><span className="BIT"><br/>BIT</span>ZERO es una compañia que te ofrece una variedad de servicios en cuanto al desarollo de software, como los son: <br/>
                                                 Diseño de paginas web,Marketing digital, Ecommerce, cursos, talleres y mas.
                                             </p>
-                                            <div className="d-grid gap-0 col-4 mx-auto" >
+                                            <div className="d-grid gap-0 col-5 mx-auto" >
                                                 <button type="button" onClick={this.redirect} className="btn btn-lg  text-white">Servicios</button>
                                             </div>
                                         </div>

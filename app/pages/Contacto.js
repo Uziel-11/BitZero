@@ -18,7 +18,7 @@ class Contacto extends React.Component{
                 <div className="CasosExito">
                     <div className=""><span className="BIT">Contactanos</span></div>
                 </div>
-                <div className="row row-cols-1 row-cols-md-4 g-4" style={{heigth:"100%",margin:"10%", marginTop:"5%"}}>
+                <div className="card-group" style={{heigth:"100%",margin:"10%", marginTop:"5%"}}>
                     <div className="col">
                         <div className="card-contacto" style={{background:"#A50000",width:"90%",height:"120%"}}>
                             <a href="https://www.facebook.com/BitzeroTech/" style={{ textDecoration: 'none'}}><img src={Facebook} className="img-responsive" alt="..." style={{marginLeft:"45%",marginTop:"6%",width:"12%"}}/></a>
@@ -27,9 +27,9 @@ class Contacto extends React.Component{
                                 <div style={{marginTop:"60%"}}>
                                     <a href="https://www.facebook.com/BitzeroTech/" style={{ textDecoration: 'none'}}><p className="card-text text-center text-white">BITZERO</p></a>
                                 </div>
-
                             </div>
                         </div>
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="card-contacto" style={{background:"#A50000",width:"90%",height:"120%"}}>
@@ -42,6 +42,7 @@ class Contacto extends React.Component{
                                 </div>
                             </div>
                         </div>
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="card-contacto" style={{background:"#A50000",width:"90%",height:"120%"}}>
@@ -53,6 +54,7 @@ class Contacto extends React.Component{
                                 </div>
                             </div>
                         </div>
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="card-contacto" style={{background:"#A50000",width:"90%",height:"120%"}}>
@@ -66,8 +68,20 @@ class Contacto extends React.Component{
                         </div>
                     </div>
                 </div>
-                <Form/>
-                <Mapa/>
+
+                <br/>
+
+                <div className="container">
+                    <div className="card-group">
+                        <div className="col">
+                            <Mapa/>
+                            <br/>
+                        </div>
+                        <div className="col">
+                            <Form/>
+                        </div>
+                    </div>
+                </div>
                 <Footer/>
             </>
         )

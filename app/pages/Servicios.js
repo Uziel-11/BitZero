@@ -109,7 +109,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </div>
                         </div>
-
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="container">
@@ -125,6 +125,7 @@ export default  class Servicios extends React.Component {
                             </div>
                         </div>
                         </div>
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="card-servicio h-100 text-white" id="card">
@@ -154,6 +155,7 @@ export default  class Servicios extends React.Component {
                                 </p>
                             </div>
                         </div>
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="card-servicio h-100 text-white" id="card">
@@ -168,6 +170,7 @@ export default  class Servicios extends React.Component {
                                 </p>
                             </div>
                         </div>
+                        <br/>
                     </div>
                     <div className="col">
                         <div className="card-servicio h-100 text-white" id="card">

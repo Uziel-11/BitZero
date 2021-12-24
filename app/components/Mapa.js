@@ -36,7 +36,7 @@ class Mapa extends React.Component {
         const position=[this.state.lat, this.state.lng];
         return (
             <MapContainer
-                style={{height: '800px', width: '53%',top:"-800px",marginLeft:"3%",marginBottom:"-700px"}}
+                style={{height: '800px'}}
                 refs={this.refMap}
                 center={position}
                 zoom={this.state.zoom}

@@ -5,7 +5,7 @@ class FormularioContac extends React.Component{
     render() {
         return (
 
-            <section id="login" className="container" style={{marginLeft:"56%",width:"40%"}}>
+            <section id="login" className="container" style={{width:"80%"}}>
                 <form className="formulario row justify-content-center"  style={{background:"#A50000"}}>
                     <div className="text-white" style={{marginTop:"40px"}}>
                         <h4 className="text-center ">Envianos un mensaje</h4>

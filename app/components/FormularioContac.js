@@ -11,20 +11,20 @@ class FormularioContac extends React.Component{
                         <h4 className="text-center ">Envianos un mensaje</h4>
                     </div>
                     <div className="col-md-6 text-white">
-                        <label htmlFor="inputEmail4" className="form-label" style={{marginTop:"40px"}}>Email</label>
-                        <input type="email" className="form-control" id="inputEmail4"/>
+                        <label htmlFor="inputEmail4" className="form-label" style={{marginTop:"40px"}}>Nombre</label>
+                        <input type="name" placeholder="Luis Miguel" className="form-control" id="inputName"/>
                     </div>
                     <div className="col-md-6 text-white">
-                        <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Password</label>
-                        <input type="password" className="form-control" id="inputPassword4"/>
+                        <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Apellido</label>
+                        <input type="lastName" placeholder="Gonzalez Martinez" className="form-control" id="inputLastname"/>
                     </div>
                     <div className="col-md-6 text-white">
                         <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Telefono</label>
-                        <input type="password" className="form-control" id="inputPassword4"/>
+                        <input type="phone" placeholder="9787354365" className="form-control" id="inputPhone"/>
                     </div>
                     <div className="col-md-6 text-white">
                         <label htmlFor="inputPassword4" className="form-label" style={{marginTop:"40px"}}>Correo</label>
-                        <input type="password" className="form-control" id="inputPassword4"/>
+                        <input type="email" placeholder="luisgm9787@gmail.com" className="form-control" id="inputEmail"/>
                     </div>
                     <div className="mb-3 text-white">
                         <label htmlFor="exampleFormControlTextarea1" className="form-label" style={{marginTop:"40px"}}>Motivo o consulta</label>
@@ -51,7 +51,7 @@ class FormularioContac extends React.Component{
                             </label>
                         </div>
 
-                        <div className="solicitar d-grid gap-2" style={{marginTop:"50px"}}>
+                        <div className="solicitar d-grid gap-2" style={{marginTop:"50px", width:"80%", marginLeft: "10%"}}>
                             <button className="btn btn-white" type="button">Solicitar</button>
                         </div>
 

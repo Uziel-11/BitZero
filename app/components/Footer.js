@@ -4,6 +4,7 @@ import Email from "../assets/img/Email.png"
 import Mobile from "../assets/img/Mobile.png"
 import Location from "../assets/img/Location.png"
 import '/app/assets/stylesheets/Home.css'
+import {NavLink} from "react-router-dom";
 
 class Footer extends React.Component{
 
@@ -37,22 +38,22 @@ class Footer extends React.Component{
                                     MENU
                                 </h6>
                                 <p>
-                                    INICIO
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Home"> INICIO </NavLink>
                                 </p>
                                 <p>
-                                    SERVICIOS
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> SERVICIOS </NavLink>
                                 </p>
                                 <p>
-                                    CASOS DE EXITO
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/CasosExito"> CASOS DE EXITO </NavLink>
                                 </p>
                                 <p>
-                                    NOSOTROS
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Nosotros"> NOSOTROS </NavLink>
                                 </p>
                                 <p>
-                                    CLIENTES
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Clientes"> CLIENTES </NavLink>
                                 </p>
                                 <p>
-                                    CONTACTO
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Contacto"> CONTACTO </NavLink>
                                 </p>
                             </div>
 
@@ -62,22 +63,22 @@ class Footer extends React.Component{
                                     SERVICOS
                                 </h6>
                                 <p>
-                                    Diseño de Pagina Web
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> Diseño de Pagina Web </NavLink>
                                 </p>
                                 <p>
-                                    E-COMMERSE
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> E-COMMERCE </NavLink>
                                 </p>
                                 <p>
-                                    Desarrollo a la Medida
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> Desarrollo a la Medida </NavLink>
                                 </p>
                                 <p>
-                                    Marketing Digital
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> Marketing Digital </NavLink>
                                 </p>
                                 <p>
-                                    Cursos y Talleres
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> Cursos y Talleres </NavLink>
                                 </p>
                                 <p>
-                                    Desarrollo de App
+                                    <NavLink style={{color:"#6C757D", textDecoration: 'none'}} to="/Servicios"> Desarrollo de App </NavLink>
                                 </p>
                             </div>
 
